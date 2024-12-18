@@ -1,0 +1,40 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Abril Fatface";
+  color: #D9597B;
+}
+
+#bienvenue button a img {
+  width: 25px;
+  height: 20px;
+}
+
+#bienvenue button a {
+
+  color: white;
+  text-decoration: none;
+  padding: 2em;
+}
+
+#bienvenue button {
+  border: none;
+}
+
+#bienvenue button:first-of-type {
+  background-color: #47A9E8;
+}
+
+#bienvenue button:nth-of-type(2) {
+  background-color: #0077B7;
+}
+
+#bienvenue button:nth-of-type(3) {
+  background-color: black;
+}
+
+/* couleur twitter #47A9E8 
+couleur linkedin #0077B7 
+couleur medium noir */
