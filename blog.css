@@ -1,0 +1,46 @@
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+
+    font-family: "Montserrat";
+  }
+
+  h1 {
+    font-family: "Abril Fatface";
+    color: #D9597B;
+  }  
+
+    header { 
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+    }
+  li {
+    display: inline; 
+    align-items: center;
+  }
+a {
+    text-decoration: none;
+}
+
+main img:first-of-type{
+    height: 1000px;
+width: 1100px;
+}
+
