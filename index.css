@@ -2,33 +2,85 @@ body {
   font-family: "Montserrat";
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+
+header ul li a {
+  color: grey;
+  text-decoration: none;
+}
+
+
+
 h1 {
   font-family: "Abril Fatface";
   color: #D9597B;
+  font-weight: 400;
 }
+
+h2 {
+  font-weight: 400;
+
+}
+
+#bienvenue_texte {
+  border: 1px solid red;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  width: 35em;
+}
+
+
+
+/* LOGO RESEAUX SOCIAUX DANS LES BOUTONS */
 
 #bienvenue button a img {
   width: 25px;
   height: 20px;
 }
 
-#bienvenue button a {
 
+
+
+
+
+
+
+/* LIENS DANS LES BOUTONS */
+
+#bienvenue button a {
   color: white;
   text-decoration: none;
-  padding: 2em;
+  padding: 1em;
+  border: 1px solid red;
+
+
 }
+
+
+
+
+
+
+/* BOUTONS*/
 
 #bienvenue button {
   border: none;
+  padding: 1em;
+  margin-left: 1em;
+  margin-top: 2em;
 }
 
 #bienvenue button:first-of-type {
-  background-color: #47A9E8;
+  background-color: #00AEE9;
 }
 
 #bienvenue button:nth-of-type(2) {
-  background-color: #0077B7;
+  background-color: #007FB7;
 }
 
 #bienvenue button:nth-of-type(3) {
