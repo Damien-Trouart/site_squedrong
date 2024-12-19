@@ -19,6 +19,7 @@ h1 {
 }
 
 h2 {
+  font-weight: bold;
   font-size: 1.4em;
 }
 
@@ -76,11 +77,11 @@ a:hover {
 
 main img:first-of-type {
   height: 1000px;
-  width: 1300px;
+  width: 100%;
   margin-top: 50px;
 }
 
-h1, h2, h3 {
+main h1, main h2, main h3 {
   /* margin-top: 50px;
   margin-bottom: 50px; = */
   margin: 50px 0;
@@ -98,36 +99,29 @@ main p {
 
 #bienvenue {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  margin-top: 100px;
 }
 
 #bienvenue img:nth-child(2) {
-  width: 32%;
+  width: 22%;
 }
 
-h1 {
-  font-family: "Abril Fatface";
-  color: #D9597B;
-  font-weight: 400;
-  font-size: 2em;
-}
 
 #bienvenue_texte h2 {
-  font-weight: 400;
-  font-size: 1.4em;
-
+  color: #D9597B;
 }
 
 #bienvenue_texte {
-  padding-left: 2em;
   width: 56%;
+  display:flex;
+  flex-direction: column;
 }
 
 #bienvenue_texte p {
-  padding-bottom: 2em;
+  margin-bottom: 80px;
+  margin-top: 20px;
 }
-
 
 
 
@@ -150,6 +144,11 @@ h1 {
 
 /* BOUTONS */
 
+#button {
+  display: flex;
+  flex-direction: row;
+}
+
 #bienvenue_texte a {
   color: white;
   text-decoration: none;
@@ -158,7 +157,6 @@ h1 {
   padding-left: 3em;
   padding-right: 3em;
   margin-right: 1em;
-
 
 }
 
