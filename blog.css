@@ -13,7 +13,7 @@ body {
 h1 {
   font-size: 2em;
   font-family: "Abril Fatface";
-  color: #D9597B;
+  color: #d9597b;
   font-weight: 400;
   font-style: normal;
 }
@@ -62,7 +62,7 @@ a {
   color: #707070;
 }
 
-a:hover {
+nav a:hover {
   color: #968ac9;
   font-weight: bolder;
 }
@@ -74,20 +74,23 @@ a:hover {
 
 /*fin header*/
 
-
 main img:first-of-type {
   height: 1000px;
   width: 100%;
   margin-top: 50px;
 }
 
-main h1, main h2, main h3 {
+main h1,
+main h2,
+main h3 {
   /* margin-top: 50px;
   margin-bottom: 50px; = */
   margin: 50px 0;
 }
 
-#blog1 p:not(:last-child), #blog2 p:not(:last-child), #blog3 p:not(:last-child) {
+#blog1 p:not(:last-child),
+#blog2 p:not(:last-child),
+#blog3 p:not(:last-child) {
   margin-bottom: 25px;
 }
 
@@ -113,9 +116,8 @@ footer {
   width: 22%;
 }
 
-
 #bienvenue_texte h2 {
-  color: #D9597B;
+  color: #d9597b;
   font-family: "Montserrat", serif;
   font-weight: bold;
   font-size: 2em;
@@ -123,9 +125,8 @@ footer {
 
 #bienvenue_texte {
   width: 56%;
-  display:flex;
+  display: flex;
   flex-direction: column;
-  
 }
 
 #bienvenue_texte p {
@@ -133,24 +134,13 @@ footer {
   margin-top: 20px;
 }
 
-
-
-
 /* LOGO RESEAUX SOCIAUX DANS LES BOUTONS */
 
 #bienvenue_texte img {
   width: 1em;
   height: 1em;
+  padding-right: 2em;
 }
-
-
-
-
-
-
-
-
-
 
 /* BOUTONS */
 
@@ -167,15 +157,14 @@ footer {
   padding-left: 3em;
   padding-right: 3em;
   margin-right: 1em;
-
 }
 
 #bienvenue a:first-of-type {
-  background-color: #00AEE9;
+  background-color: #00aee9;
 }
 
 #bienvenue a:nth-of-type(2) {
-  background-color: #007FB7;
+  background-color: #007fb7;
 }
 
 #bienvenue a:nth-of-type(3) {
