@@ -93,3 +93,83 @@ h1, h2, h3 {
 main p {
   text-align: justify;
 }
+
+/* BLOC BIENVENUE */
+
+#bienvenue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#bienvenue img:nth-child(2) {
+  width: 32%;
+}
+
+h1 {
+  font-family: "Abril Fatface";
+  color: #D9597B;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+#bienvenue_texte h2 {
+  font-weight: 400;
+  font-size: 1.4em;
+
+}
+
+#bienvenue_texte {
+  padding-left: 2em;
+  width: 56%;
+}
+
+#bienvenue_texte p {
+  padding-bottom: 2em;
+}
+
+
+
+
+
+/* LOGO RESEAUX SOCIAUX DANS LES BOUTONS */
+
+#bienvenue_texte img {
+  width: 1em;
+  height: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+/* BOUTONS */
+
+#bienvenue_texte a {
+  color: white;
+  text-decoration: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-right: 1em;
+
+
+}
+
+#bienvenue a:first-of-type {
+  background-color: #00AEE9;
+}
+
+#bienvenue a:nth-of-type(2) {
+  background-color: #007FB7;
+}
+
+#bienvenue a:nth-of-type(3) {
+  background-color: black;
+}
