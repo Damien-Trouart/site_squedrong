@@ -42,10 +42,6 @@ nav {
   align-items: center;
 }
 
-nav img {
-  background-color: aquamarine;
-}
-
 nav ul {
   display: flex;
   list-style: none;
