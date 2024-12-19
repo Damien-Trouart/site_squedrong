@@ -97,10 +97,16 @@ main p {
 
 /* BLOC BIENVENUE */
 
+footer {
+  /* margin-bottom: 50px; */
+  margin-bottom: 18vh;
+}
+
 #bienvenue {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
+  align-items: center;
 }
 
 #bienvenue img:nth-child(2) {
@@ -108,14 +114,17 @@ main p {
 }
 
 
-#bienvenue_texte h2 {
+#bienvenue_texte h1 {
   color: #D9597B;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
 }
 
 #bienvenue_texte {
   width: 56%;
   display:flex;
   flex-direction: column;
+  
 }
 
 #bienvenue_texte p {
