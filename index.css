@@ -4,6 +4,11 @@ body {
   margin-right: 20%;
 }
 
+
+
+/* HEADER */
+
+
 header {
   display: flex;
   align-items: center;
@@ -21,11 +26,26 @@ header ul li a {
   text-decoration: none;
 }
 
+
+
+
+
+
+
+
+
+
+/* BLOC BIENVENUE */
+
 #bienvenue {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
+#bienvenue img:nth-child(2) {
+  width: 30%;
+}
 
 h1 {
   font-family: "Abril Fatface";
@@ -35,24 +55,29 @@ h1 {
 
 h2 {
   font-weight: 400;
+  font-size: ;
 
 }
 
 #bienvenue_texte {
   border: 1px solid red;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
-  width: 35em;
+  padding-left: 2em;
+  width: 60%;
 }
+
+#bienvenue_texte p {
+  padding-bottom: 2em;
+}
+
+
 
 
 
 /* LOGO RESEAUX SOCIAUX DANS LES BOUTONS */
 
-#bienvenue button a img {
-  width: 25px;
-  height: 20px;
+#bienvenue_texte img {
+  width: 1em;
+  height: 1em;
 }
 
 
@@ -62,43 +87,31 @@ h2 {
 
 
 
-/* LIENS DANS LES BOUTONS */
 
-#bienvenue button a {
+
+/* BOUTONS */
+
+#bienvenue_texte a {
   color: white;
   text-decoration: none;
-  padding: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-right: 1em;
   border: 1px solid red;
 
 
 }
 
-
-
-
-
-
-/* BOUTONS*/
-
-#bienvenue button {
-  border: none;
-  padding: 1em;
-  margin-left: 1em;
-  margin-top: 2em;
-}
-
-#bienvenue button:first-of-type {
+#bienvenue a:first-of-type {
   background-color: #00AEE9;
 }
 
-#bienvenue button:nth-of-type(2) {
+#bienvenue a:nth-of-type(2) {
   background-color: #007FB7;
 }
 
-#bienvenue button:nth-of-type(3) {
+#bienvenue a:nth-of-type(3) {
   background-color: black;
 }
-
-/* couleur twitter #47A9E8 
-couleur linkedin #0077B7 
-couleur medium noir */
