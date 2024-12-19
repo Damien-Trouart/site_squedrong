@@ -59,14 +59,58 @@ a:hover {
 /*Début id form*/
 #form {
   display: flex;
+<<<<<<< HEAD
 }
 #form img {
   height: 500px;
   background-color: blue;
+=======
+  justify-content: space-between;
+  align-items: center;
+}
+#form img {
+  height: 500px;
+  /* background-color: blue; */
+}
+
+#right-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#form h1 {
+  margin-bottom: 25px;
+}
+
+input {
+  border: none;
+  margin-bottom: 25px;
+  font-size: large;
+  width: 400px;
+  border-bottom: 1px solid black;
+}
+
+textarea {
+  font-size: large;
+  height: 100px;
+  width: 400px;
+}
+
+button {
+  border: none;
+  padding: 1em;
+  margin-top: 2em;
+  background-color: #968ac9;
+}
+
+button:hover {
+  background-color: white;
+>>>>>>> 044269473ef3a6b3d3a99d9b69bd23638ed01184
 }
 
 /*Début id contact*/
 
+<<<<<<< HEAD
 #contact {
   display: flex;
 
@@ -81,3 +125,26 @@ a:hover {
   flex-direction: column;
   align-items: center;
 }
+=======
+#contact_main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.contact {
+  /* background-color: #968ac9; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+/* Chercher convertisseur px en rem pour le responsive */
+>>>>>>> 044269473ef3a6b3d3a99d9b69bd23638ed01184
