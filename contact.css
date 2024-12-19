@@ -103,6 +103,7 @@ textarea {
   font-size: large;
   height: 100px;
   width: 400px;
+  resize: none;
 }
 
 button {
