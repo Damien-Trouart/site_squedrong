@@ -67,3 +67,73 @@ a:hover {
 }
 
 /*fin header*/
+
+/* BLOC BIENVENUE */
+
+#bienvenue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#bienvenue img:nth-child(2) {
+  width: 30%;
+}
+
+h1 {
+  font-family: "Abril Fatface";
+  color: #d9597b;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+#bienvenue_texte {
+  border: 1px solid red;
+  padding-left: 2em;
+  width: 60%;
+}
+
+#bienvenue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#bienvenue img:nth-child(2) {
+  width: 30%;
+}
+
+#bienvenue_texte p {
+  padding-bottom: 2em;
+}
+
+#bienvenue_texte img {
+  width: 1em;
+  height: 1em;
+}
+
+#bienvenue_texte a {
+  color: white;
+  text-decoration: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-right: 1em;
+  border: 1px solid red;
+}
+
+#bienvenue a:first-of-type {
+  background-color: #00aee9;
+}
+
+#bienvenue a:nth-of-type(2) {
+  background-color: #007fb7;
+}
+
+#bienvenue a:nth-of-type(3) {
+  background-color: black;
+}

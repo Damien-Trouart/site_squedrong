@@ -107,10 +107,14 @@ textarea {
 }
 
 button {
+  color: white;
   border: none;
-  padding: 1em;
-  margin-top: 2em;
-  background-color: #968ac9;
+  text-decoration: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-right: 1em;
 }
 
 button:hover {
