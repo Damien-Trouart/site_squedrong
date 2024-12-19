@@ -180,3 +180,12 @@ article a span {
 article p:nth-child(4) {
   padding-bottom: 1.5em;
 }
+
+article a:hover {
+  color: #968ac9;
+
+}
+
+article a:active {
+  font-weight: bold;
+}
