@@ -114,10 +114,11 @@ footer {
 }
 
 
-#bienvenue_texte h1 {
+#bienvenue_texte h2 {
   color: #D9597B;
   font-family: "Montserrat", serif;
   font-weight: bold;
+  font-size: 2em;
 }
 
 #bienvenue_texte {
