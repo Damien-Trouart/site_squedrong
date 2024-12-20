@@ -26,19 +26,16 @@ h3 {
   font-size: 1.2em;
 }
 
-
-
-
-
-
 /*-------------------------------------------------------------------------HEADER-------------------------------------------------------------------------*/
-
 
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
   font-family: "Abril Fatface", serif;
 }
 
@@ -73,11 +70,7 @@ a:hover {
   font-weight: bolder;
 }
 
-
-
-
 /*------------------------------------------------------------- #A PROPOS 1  ----------------------------------------------------------------------------*/
-
 
 h1 {
   text-align: center;
@@ -91,13 +84,7 @@ h1 {
   padding-bottom: 5em;
 }
 
-
-
-
 /* ----------------------------------------------------------------#A PROPOS 2---------------------------------------------------------------------------- */
-
-
-
 
 #apropos2 {
   display: flex;
@@ -105,13 +92,11 @@ h1 {
   align-items: center;
   justify-content: space-around;
   padding-top: 2em;
-
 }
 
 #bloc_apropos2 {
   width: 30%;
 }
-
 
 #apropos2 img {
   width: 40%;
@@ -122,12 +107,7 @@ h1 {
   padding-bottom: 1em;
 }
 
-
-
 /*------------------------------------------------------------------A PROPOS 3-------------------------------------------------------------------------------*/
-
-
-
 
 #apropos3 {
   display: flex;
@@ -140,7 +120,6 @@ h1 {
 #bloc_apropos3 {
   width: 30%;
 }
-
 
 #apropos3 img {
   width: 40%;
