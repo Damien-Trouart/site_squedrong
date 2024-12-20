@@ -1,187 +1,182 @@
- body {
-   font-family: "Montserrat";
-   margin-left: 16%;
-   margin-right: 16%;
-   margin-bottom: 10%;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", serif;
+}
 
- }
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 300px;
+  margin-bottom: 10%;
+}
 
+h1 {
+  font-size: 2em;
+  font-family: "Abril Fatface";
+  color: #d9597b;
+  font-weight: 400;
+}
 
- /*--------------------------------------------------------------------------HEADER---------------------------------------------------------------- */
+h2 {
+  font-size: 1.4em;
+}
 
+h3 {
+  font-size: 1.2em;
+}
 
- header {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   margin-bottom: 2em;
- }
+/*-------------------------------------------------------------------------HEADER-------------------------------------------------------------------------*/
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Abril Fatface", serif;
+}
 
- li {
-   display: inline;
-   padding-left: 1em;
- }
+nav {
+  display: flex;
+  align-items: center;
+}
 
- header ul li a {
-   color: grey;
-   text-decoration: none;
- }
+nav ul {
+  display: flex;
+  list-style: none;
+  padding-left: 20px;
+  align-items: center;
+}
 
- header a:hover {
-   color: #968ac9;
-   font-weight: bold;
- }
+nav ul li {
+  padding-left: 20px;
+}
 
- li a[href="index.html"] {
-   font-weight: bold;
-   color: #968ac9;
- }
+a {
+  text-decoration: none;
+  color: #707070;
+}
 
+a:hover {
+  color: #968ac9;
+  font-weight: bolder;
+}
 
+#index a {
+  color: #968ac9;
+  font-weight: bolder;
+}
 
+/*------------------------------------------------------------------------BLOC BIENVENUE------------------------------------------------------------------- */
 
+#bienvenue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
+#bienvenue img:nth-child(2) {
+  width: 32%;
+}
 
- /*------------------------------------------------------------------------BLOC BIENVENUE------------------------------------------------------------------- */
+#bienvenue_texte h2 {
+  font-weight: 400;
+  margin: 20px 0;
+}
 
- #bienvenue {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
- }
+#bienvenue_texte {
+  width: 60%;
+}
 
- #bienvenue img:nth-child(2) {
-   width: 32%;
- }
+#bienvenue_texte p {
+  padding-bottom: 2em;
+}
 
- h1 {
-   font-family: "Abril Fatface";
-   color: #D9597B;
-   font-weight: 400;
-   font-size: 2em;
- }
+/*---------------------------------------------------------------LOGO RESEAUX SOCIAUX DANS LES BOUTONS--------------------------------------------------*/
 
- #bienvenue_texte h2 {
-   font-weight: 400;
-   font-size: 1.4em;
+#bienvenue_texte img {
+  width: 1em;
+  height: 1em;
+  padding-right: 2em;
+}
 
- }
+/*------------------------------------------------------------------------BOUTONS----------------------------------------------------------------------------*/
 
- #bienvenue_texte {
-   padding-left: 2em;
-   width: 60%;
- }
+#bienvenue_texte a {
+  color: white;
+  text-decoration: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 3em;
+  margin-right: 1em;
+}
 
- #bienvenue_texte p {
-   padding-bottom: 2em;
- }
+#boutons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 
+#bienvenue a:first-of-type {
+  background-color: #00aee9;
+}
 
+#bienvenue a:nth-of-type(2) {
+  background-color: #007fb7;
+}
 
+#bienvenue a:nth-of-type(3) {
+  background-color: black;
+}
 
+/*------------------------------------------------------------------------------BLOC   ARTICLE---------------------------------------------------------------*/
 
- /*---------------------------------------------------------------LOGO RESEAUX SOCIAUX DANS LES BOUTONS--------------------------------------------------*/
+#tableau {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 9em;
+}
 
- #bienvenue_texte img {
-   width: 1em;
-   height: 1em;
-   padding-right: 2em;
- }
+article {
+  width: 50%;
+  padding-bottom: 5em;
+}
 
+article p:first-of-type {
+  font-weight: 600;
+}
 
+article img {
+  width: 98%;
+}
 
+article h2,
+article a {
+  color: #d9597b;
+}
 
+article h2 {
+  font-size: 1.4em;
+}
 
+article a {
+  text-decoration: none;
+}
 
+article a span {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
 
- /*------------------------------------------------------------------------BOUTONS----------------------------------------------------------------------------*/
+article p:nth-child(4) {
+  padding-bottom: 1.5em;
+}
 
- #bienvenue_texte a {
-   color: white;
-   text-decoration: none;
-   padding-top: 1em;
-   padding-bottom: 1em;
-   padding-left: 2em;
-   padding-right: 3em;
-   margin-right: 1em;
+article a:hover {
+  color: #968ac9;
+}
 
- }
-
- #boutons {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: nowrap;
- }
-
- #bienvenue a:first-of-type {
-   background-color: #00AEE9;
- }
-
- #bienvenue a:nth-of-type(2) {
-   background-color: #007FB7;
- }
-
- #bienvenue a:nth-of-type(3) {
-   background-color: black;
- }
-
-
-
-
-
-
- /*------------------------------------------------------------------------------BLOC   ARTICLE---------------------------------------------------------------*/
-
- #tableau {
-   display: flex;
-   flex-flow: row wrap;
-   margin-top: 9em;
- }
-
- article {
-   width: 50%;
-   padding-bottom: 5em;
- }
-
- article p:first-of-type {
-   font-weight: 600
- }
-
- article img {
-   width: 98%;
- }
-
- article h2,
- article a {
-   color: #D9597B;
- }
-
- article h2 {
-   font-size: 1.4em;
- }
-
-
-
- article a {
-   text-decoration: none;
- }
-
- article a span {
-   text-decoration: underline;
-   text-underline-offset: 5px;
- }
-
-
- article p:nth-child(4) {
-   padding-bottom: 1.5em;
- }
-
- article a:hover {
-   color: #968ac9;
-
- }
-
- article a:active {
-   font-weight: bold;
- }
+article a:active {
+  font-weight: bold;
+}
