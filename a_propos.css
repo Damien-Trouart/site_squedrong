@@ -82,7 +82,7 @@ h1 {
 
 /* ----------------------------------------------------------------#A PROPOS 2---------------------------------------------------------------------------- */
 
-#apropos2 {
+.apropos2 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -90,22 +90,22 @@ h1 {
   padding-top: 2em;
 }
 
-#bloc_apropos2 {
+.bloc_apropos2 {
   width: 30%;
 }
 
-#apropos2 img {
+.apropos2 img {
   width: 40%;
   border-radius: 20px;
 }
 
-#apropos2 h2 {
+.apropos2 h2 {
   padding-bottom: 1em;
 }
 
 /*------------------------------------------------------------------A PROPOS 3-------------------------------------------------------------------------------*/
 
-#apropos3 {
+.apropos3 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -113,15 +113,15 @@ h1 {
   padding-top: 2em;
 }
 
-#bloc_apropos3 {
+.bloc_apropos3 {
   width: 30%;
 }
 
-#apropos3 img {
+.apropos3 img {
   width: 40%;
   border-radius: 20px;
 }
 
-#apropos3 h3 {
+.apropos3 h3 {
   padding-bottom: 1em;
 }
